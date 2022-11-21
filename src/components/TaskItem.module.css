@@ -1,0 +1,50 @@
+.container {
+  margin-top: 1.5rem; 
+  padding: 1rem;
+
+  display: flex;
+  align-items: flex-start;
+  gap: .75rem;
+  
+  background: var(--gray-500);
+
+  border: 1px solid var(--gray-400);
+  border-radius: 8px;
+
+}
+
+.buttonAndLabel {
+  display: flex;
+  gap: .75rem;
+}
+
+.buttonNotChecked,
+.buttonChecked {
+  height: 1.5rem;
+  width: 1.5rem;
+
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.buttonNotChecked {
+  border: 2px solid var(--blue);
+  background: transparent;
+}
+
+/* .buttonChecked {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+.container p {
+  width: 85%;
+  text-align: justify;
+}
+
+.trashBtn {
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+}

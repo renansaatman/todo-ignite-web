@@ -1,0 +1,87 @@
+.container {
+  width: 46rem;
+  margin: auto;
+}
+
+.todoForm {
+  display: flex;
+  justify-content: space-between;
+
+  margin-top: -1.625rem;
+}
+
+.todoForm input {
+  flex: 1;
+  width: 100%;
+  height: 3.3rem;
+
+  border: 1px solid var(--gray-700);
+  border-radius: 8px;
+
+  margin-right: .5rem;
+  padding: 1rem;
+
+  background: var(--gray-500);
+  color: var(--gray-100);
+}
+
+.todoForm button {
+  width: 5.6rem;
+  height: 3.25rem;
+
+  background: var(--blue-dark);
+  color: var(--gray-100);
+  
+  border: 0;
+  border-radius: 8px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+
+  padding: 1rem;
+
+  font-size: .875rem;
+  font-weight: bold;
+
+  transition: background .1s;
+}
+
+.todoForm button:hover {
+  background: var(--blue);
+}
+
+.taskArea {
+  width: 100%;
+  margin-top: 4rem;
+}
+
+.taskArea header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.tasksCreatedText,
+.tasksDoneText {
+  font-weight: bold;
+  font-size: .875rem;
+}
+
+.tasksCreatedText {
+  color: var(--blue);
+}
+
+.tasksDoneText {
+  color: var(--purple);
+}
+
+.counter {
+  background: var(--gray-400);
+  color: var(--gray-200);
+
+  padding: 2px 8px;
+  border-radius: 100px;
+  margin-left: .5rem;
+}
