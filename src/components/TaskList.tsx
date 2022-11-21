@@ -7,7 +7,10 @@ export function TaskList() {
   return (
     <div>
       {true ? 
-        <TaskItem />
+        <div>
+          <TaskItem />
+          <TaskItem />
+        </div>
         
         :
       

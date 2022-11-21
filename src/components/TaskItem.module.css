@@ -32,11 +32,15 @@
   background: transparent;
 }
 
-/* .buttonChecked {
+.buttonChecked {
   display: flex;
   justify-content: center;
   align-items: center;
-} */
+
+  color: var(--gray-100);
+  background: var(--purple-dark);
+  border: 2px solid var(--purple-dark);
+}
 
 .container p {
   width: 85%;
@@ -47,4 +51,11 @@
   background: transparent;
   border: 0;
   cursor: pointer;
+  color: var(--gray-300);
+
+  transition: background .2s;
+}
+
+.trashBtn:hover {
+  color: var(--danger);
 }

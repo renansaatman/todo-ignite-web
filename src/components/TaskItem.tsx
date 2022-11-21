@@ -6,15 +6,15 @@ export function TaskItem() {
     <div className={styles.container}>
       <div className={styles.buttonAndLabel}>
         <button 
-          className={false ? styles.buttonChecked : styles.buttonNotChecked}
+          className={true ? styles.buttonChecked : styles.buttonNotChecked}
         >
-          {false ? <Check size={24}></Check> : null}
+          {true ? <Check size={20}></Check> : null}
         </button>
 
         <p>Integer urna interdum massa libero auctor neque turpis turpis semper. Duis vel sed fames integer.</p>
       </div>
       <button className={styles.trashBtn}>
-        <Trash size={24} color='#808080'/>
+        <Trash size={24} />
       </button>
     </div>
   )
