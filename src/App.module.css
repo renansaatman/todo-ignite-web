@@ -48,10 +48,6 @@
   transition: background .1s;
 }
 
-.todoForm button:hover {
-  background: var(--blue);
-}
-
 .taskArea {
   width: 100%;
   margin-top: 4rem;
@@ -84,4 +80,32 @@
   padding: 2px 8px;
   border-radius: 100px;
   margin-left: .5rem;
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 87.5%;
+  }
+
+  .container {
+    width: 30rem;
+    padding: 0 1rem;
+  }
+
+  .todoForm {
+    flex-direction: column;
+  }
+
+  .todoForm button {
+    margin-top: .5rem;
+    width: 100%;
+
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .todoForm button:hover {
+    background: var(--blue);
+  }
 }

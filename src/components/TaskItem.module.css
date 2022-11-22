@@ -64,6 +64,19 @@
   transition: background .2s;
 }
 
-.trashBtn:hover {
-  color: var(--danger);
+@media (max-width: 768px) {
+  .container {
+    justify-content: space-between;
+  }
+
+  .normalContent,
+  .contentChecked {
+    width: 20rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .trashBtn:hover {
+    color: var(--danger);
+  }
 }
