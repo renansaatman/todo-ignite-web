@@ -10,7 +10,6 @@
 
   border: 1px solid var(--gray-400);
   border-radius: 8px;
-
 }
 
 .buttonAndLabel {
@@ -40,11 +39,20 @@
   color: var(--gray-100);
   background: var(--purple-dark);
   border: 2px solid var(--purple-dark);
+
+  text-decoration: line-through;
 }
 
-.container p {
-  width: 85%;
+.normalContent,
+.contentChecked {
+  width: 39.5rem;
+  padding-right: 2rem;
   text-align: justify;
+}
+
+.contentChecked {
+  color: var(--gray-300);
+  text-decoration: line-through;
 }
 
 .trashBtn {
