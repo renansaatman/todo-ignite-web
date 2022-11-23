@@ -20,8 +20,8 @@ First challenge of the Rocketseat Ignite Course.
 :computer: For desktop
 
 <p>
-    <img src="./src/assets/screenshots/no-tasks.png" alt="Desktop - No tasks" width="400"/>
-    <img src="./src/assets/screenshots/desktop.png" alt="Desktop - With tasks" width="400"/>
+    <img src="./src/assets/screenshots/no-tasks.png" alt="Desktop - No tasks"/>
+    <img src="./src/assets/screenshots/desktop.png" alt="Desktop - With tasks"/>
 </p>
 
 :iphone: For mobile devices
